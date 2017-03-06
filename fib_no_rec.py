@@ -11,22 +11,16 @@ if n == 0:
 elif n == 1:
     print('Fibonacci series of 1 nubers are: 0, 1')
 else:
-    def fibo(i):
-        global a, b
+    print('\n', a, '\n', '\n', b)
+    #n = n - 1
+    for i in range (1,n):
         c = a + b
         a=b
         b=c
-        print('\n',c)
-        k=i
-        #k=k-2
-        if k == 0:
-            return 0
-        else:
-            fibo(k-1)
+        print('\n', c)
 
-    print ('\n',a,'\n','\n',b)
-    n=n-2
-    fibo(n)
+
+
 
 
 
